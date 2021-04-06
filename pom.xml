@@ -18,15 +18,14 @@
 	    
                 <sonar.projectKey>springCloud</sonar.projectKey>
                 <sonar.host.url>http://ip172-18-0-18-c1m9mbpbqvp0009gjdn0-9000.direct.labs.play-with-docker.com</sonar.host.url>
-                <sonar.login>06510679dbaf05bc1cb0448fc12a3ec4d7429588</sonar.login>
+                <sonar.login>e713b0bced6304b1d8d47ae9670563293f5b5f1b</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<app.name>app.jar</app.name>
 		<docker.cmd>java -jar /bootapp/app.jar</docker.cmd>
-		<!--<docker.registry>localhost:5000</docker.registry>
-		<docker.tag>${project.version}</docker.tag> -->
-	</properties>
+		<docker.registry>localhost:5000</docker.registry>
+		<docker.tag>${project.version}</docker.tag> 
 
 
     <dependencies>
